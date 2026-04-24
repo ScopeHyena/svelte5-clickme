@@ -44,6 +44,9 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
         border: none;
         color: white;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
     }
 
     button.card:active {
