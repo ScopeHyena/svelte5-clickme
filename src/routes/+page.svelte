@@ -20,7 +20,10 @@
 
 <style>
     .card {
+        display: flex;
         background-color: white;
+        justify-content: center; 
+        align-items: center;
         border-radius: 18px;
         padding: 20px 24px;
         margin-bottom: 16px;
@@ -30,15 +33,22 @@
         color: #1c1c1e;
     }
 
-    input {
-        max-width: 100%;
+    input.card {
         border: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    button {
         width: 100%;
-        text-align: start;
-        color: #ff3e00;
     }
 
+    button.card {
+        width: 100%;
+        background-color: #ff3e00;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+        border: none;
+        color: white;
+    }
+
+    button.card:active {
+        color: #f2f2f7;
+        transform: scale(0.99);
+        background-color: #D13400;
+    }
 </style>
